@@ -31,7 +31,7 @@ void do_command(var client, var data,Map <String, String> users, bool admin)
       String helplist = '---------------------------------------------------\n';
       for (String i in commands.keys)
       {helplist += "$i - ${commands[i]}\n";}
-      helplist += '\n---------------------------------------------------';
+      helplist += '---------------------------------------------------';
       client.emit("message", helplist);
       break;
     
@@ -39,7 +39,7 @@ void do_command(var client, var data,Map <String, String> users, bool admin)
       String onlinelist = '---------------------------------------------------\n';
       for (String i in users.values)
       {onlinelist = "$onlinelist-$i\n";}
-      onlinelist += '\n---------------------------------------------------';
+      onlinelist += '---------------------------------------------------';
       client.emit("message", onlinelist);
       break;
     
