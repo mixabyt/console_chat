@@ -1,0 +1,371 @@
+Error: Couldn't resolve the package 'socket_io' in 'package:socket_io/socket_io.dart'.
+server.dart:1:8: Error: Not found: 'package:socket_io/socket_io.dart'
+import 'package:socket_io/socket_io.dart';
+       ^
+server.dart:20:12: Error: Method not found: 'Server'.
+  var io = Server();
+           ^^^^^^
+Server listening on *:3002
+2024-05-30 19:31:39.373242:stream:0
+INFO: Rikulo Stream Server 3.1.0 starting on 0.0.0.0:3002
+Home: /home/ubuntu/console_chat/bin
+A user connected: 3c8791d01ebb11ef86f89306ebc1ad0f
+A user connected: 448a0bb01ebb11ef86f89306ebc1ad0f
+A user connected: b08071601ebb11ef86f89306ebc1ad0f
+sad
+A user connected: ce1c3f101ebb11ef86f89306ebc1ad0f
+sad
+User disconnected: maxloh
+A user connected: 07f869201ebc11ef86f89306ebc1ad0f
+User disconnected: test
+User disconnected: max
+Server listening on *:3002
+2024-05-30 20:07:55.139051:stream:0
+INFO: Rikulo Stream Server 3.1.0 starting on 0.0.0.0:3002
+Home: /home/ubuntu/console_chat/bin
+A user connected: 54756ab01ec011ef8066c7f15f0468e1
+User disconnected: dfsfd
+A user connected: ecde62501ed111ef8066c7f15f0468e1
+A user connected: ece0fa601ed111ef8066c7f15f0468e1
+User disconnected: max
+User disconnected: dima
+A user connected: 40d7da501ed511ef8066c7f15f0468e1
+A user connected: 40ef0bd01ed511ef8066c7f15f0468e1
+User disconnected: nigga
+User disconnected: fuck you
+A user connected: ee8055b01ed511ef8066c7f15f0468e1
+A user connected: ee82edc01ed511ef8066c7f15f0468e1
+sad
+User disconnected: name
+A user connected: f6f16fe01ed511ef8066c7f15f0468e1
+A user connected: f7003cf01ed511ef8066c7f15f0468e1
+User disconnected: name
+2024-05-30 22:43:15.342858:socket_io:Client:1
+SEVERE: type 'Null' is not a subtype of type 'bool'
+Cause: #0      main.<anonymous closure>.<anonymous closure> (file:///home/ubuntu/console_chat/bin/server.dart:50:45)
+#1      EventEmitter.emit.<anonymous closure> (package:socket_io/src/util/event_emitter.dart:34:14)
+#2      List.forEach (dart:core-patch/growable_array.dart:416:8)
+#3      EventEmitter.emit (package:socket_io/src/util/event_emitter.dart:33:11)
+#4      Function._apply (dart:core-patch/function_patch.dart:11:71)
+#5      Function.apply (dart:core-patch/function_patch.dart:35:12)
+#6      Socket.onevent (package:socket_io/src/socket.dart:322:16)
+#7      Socket.onpacket (package:socket_io/src/socket.dart:281:9)
+#8      Client.ondecoded (package:socket_io/src/client.dart:180:16)
+#9      EventEmitter.emit.<anonymous closure> (package:socket_io_common/src/util/event_emitter.dart:51:14)
+#10     List.forEach (dart:core-patch/growable_array.dart:416:8)
+#11     EventEmitter.emit (package:socket_io_common/src/util/event_emitter.dart:50:11)
+#12     Decoder.add (package:socket_io_common/src/parser/parser.dart:159:14)
+#13     Client.ondata (package:socket_io/src/client.dart:162:15)
+#14     EventEmitter.emit.<anonymous closure> (package:socket_io/src/util/event_emitter.dart:34:14)
+#15     List.forEach (dart:core-patch/growable_array.dart:416:8)
+#16     EventEmitter.emit (package:socket_io/src/util/event_emitter.dart:33:11)
+#17     Socket.onPacket (package:socket_io/src/engine/socket.dart:105:11)
+#18     EventEmitter.emit.<anonymous closure> (package:socket_io/src/util/event_emitter.dart:34:14)
+#19     List.forEach (dart:core-patch/growable_array.dart:416:8)
+#20     EventEmitter.emit (package:socket_io/src/util/event_emitter.dart:33:11)
+#21     Transport.onPacket (package:socket_io/src/engine/transport/transports.dart:91:5)
+#22     Transport.onData (package:socket_io/src/engine/transport/transports.dart:98:7)
+#23     _rootRunUnary (dart:async/zone.dart:1407:47)
+#24     _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+#25     _CustomZone.runUnaryGuarded (dart:async/zone.dart:1217:7)
+#26     _BufferingStreamSubscription._sendData (dart:async/stream_impl.dart:365:11)
+#27     _BufferingStreamSubscription._add (dart:async/stream_impl.dart:297:7)
+#28     _SyncStreamControllerDispatch._sendData (dart:async/stream_controller.dart:784:19)
+#29     _StreamController._add (dart:async/stream_controller.dart:658:7)
+#30     _StreamController.add (dart:async/stream_controller.dart:606:5)
+#31     new _WebSocketImpl._fromSocket.<anonymous closure> (dart:_http/websocket_impl.dart:1144:21)
+#32     _rootRunUnary (dart:async/zone.dart:1407:47)
+#33     _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+#34     _CustomZone.runUnaryGuarded (dart:async/zone.dart:1217:7)
+#35     _BufferingStreamSubscription._sendData (dart:async/stream_impl.dart:365:11)
+#36     _BufferingStreamSubscription._add (dart:async/stream_impl.dart:297:7)
+#37     _SinkTransformerStreamSubscription._add (dart:async/stream_transformers.dart:63:11)
+#38     _EventSinkWrapper.add (dart:async/stream_transformers.dart:13:11)
+#39     _WebSocketProtocolTransformer._messageFrameEnd (dart:_http/websocket_impl.dart:332:23)
+#40     _WebSocketProtocolTransformer.add (dart:_http/websocket_impl.dart:226:46)
+#41     _SinkTransformerStreamSubscription._handleData (dart:async/stream_transformers.dart:111:24)
+#42     _rootRunUnary (dart:async/zone.dart:1407:47)
+#43     _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+#44     _CustomZone.runUnaryGuarded (dart:async/zone.dart:1217:7)
+#45     _BufferingStreamSubscription._sendData (dart:async/stream_impl.dart:365:11)
+#46     _BufferingStreamSubscription._add (dart:async/stream_impl.dart:297:7)
+#47     _SyncStreamControllerDispatch._sendData (dart:async/stream_controller.dart:784:19)
+#48     _StreamController._add (dart:async/stream_controller.dart:658:7)
+#49     _StreamController.add (dart:async/stream_controller.dart:606:5)
+#50     _Socket._onData (dart:io-patch/socket_patch.dart:2449:41)
+#51     _rootRunUnary (dart:async/zone.dart:1415:13)
+#52     _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+#53     _CustomZone.runUnaryGuarded (dart:async/zone.dart:1217:7)
+#54     _BufferingStreamSubscription._sendData (dart:async/stream_impl.dart:365:11)
+#55     _BufferingStreamSubscription._add (dart:async/stream_impl.dart:297:7)
+#56     _SyncStreamControllerDispatch._sendData (dart:async/stream_controller.dart:784:19)
+#57     _StreamController._add (dart:async/stream_controller.dart:658:7)
+#58     _StreamController.add (dart:async/stream_controller.dart:606:5)
+#59     new _RawSocket.<anonymous closure> (dart:io-patch/socket_patch.dart:1936:33)
+#60     _NativeSocket.issueReadEvent.issue (dart:io-patch/socket_patch.dart:1379:14)
+#61     _microtaskLoop (dart:async/schedule_microtask.dart:40:21)
+#62     _startMicrotaskLoop (dart:async/schedule_microtask.dart:49:5)
+#63     _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:118:13)
+#64     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:185:5)
+
+User disconnected: sad
+2024-05-30 22:43:24.741730:socket_io:Client:2
+SEVERE: type 'Null' is not a subtype of type 'bool'
+Cause: #0      main.<anonymous closure>.<anonymous closure> (file:///home/ubuntu/console_chat/bin/server.dart:50:45)
+#1      EventEmitter.emit.<anonymous closure> (package:socket_io/src/util/event_emitter.dart:34:14)
+#2      List.forEach (dart:core-patch/growable_array.dart:416:8)
+#3      EventEmitter.emit (package:socket_io/src/util/event_emitter.dart:33:11)
+#4      Function._apply (dart:core-patch/function_patch.dart:11:71)
+#5      Function.apply (dart:core-patch/function_patch.dart:35:12)
+#6      Socket.onevent (package:socket_io/src/socket.dart:322:16)
+#7      Socket.onpacket (package:socket_io/src/socket.dart:281:9)
+#8      Client.ondecoded (package:socket_io/src/client.dart:180:16)
+#9      EventEmitter.emit.<anonymous closure> (package:socket_io_common/src/util/event_emitter.dart:51:14)
+#10     List.forEach (dart:core-patch/growable_array.dart:416:8)
+#11     EventEmitter.emit (package:socket_io_common/src/util/event_emitter.dart:50:11)
+#12     Decoder.add (package:socket_io_common/src/parser/parser.dart:159:14)
+#13     Client.ondata (package:socket_io/src/client.dart:162:15)
+#14     EventEmitter.emit.<anonymous closure> (package:socket_io/src/util/event_emitter.dart:34:14)
+#15     List.forEach (dart:core-patch/growable_array.dart:416:8)
+#16     EventEmitter.emit (package:socket_io/src/util/event_emitter.dart:33:11)
+#17     Socket.onPacket (package:socket_io/src/engine/socket.dart:105:11)
+#18     EventEmitter.emit.<anonymous closure> (package:socket_io/src/util/event_emitter.dart:34:14)
+#19     List.forEach (dart:core-patch/growable_array.dart:416:8)
+#20     EventEmitter.emit (package:socket_io/src/util/event_emitter.dart:33:11)
+#21     Transport.onPacket (package:socket_io/src/engine/transport/transports.dart:91:5)
+#22     Transport.onData (package:socket_io/src/engine/transport/transports.dart:98:7)
+#23     _rootRunUnary (dart:async/zone.dart:1407:47)
+#24     _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+#25     _CustomZone.runUnaryGuarded (dart:async/zone.dart:1217:7)
+#26     _BufferingStreamSubscription._sendData (dart:async/stream_impl.dart:365:11)
+#27     _BufferingStreamSubscription._add (dart:async/stream_impl.dart:297:7)
+#28     _SyncStreamControllerDispatch._sendData (dart:async/stream_controller.dart:784:19)
+#29     _StreamController._add (dart:async/stream_controller.dart:658:7)
+#30     _StreamController.add (dart:async/stream_controller.dart:606:5)
+#31     new _WebSocketImpl._fromSocket.<anonymous closure> (dart:_http/websocket_impl.dart:1144:21)
+#32     _rootRunUnary (dart:async/zone.dart:1407:47)
+#33     _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+#34     _CustomZone.runUnaryGuarded (dart:async/zone.dart:1217:7)
+#35     _BufferingStreamSubscription._sendData (dart:async/stream_impl.dart:365:11)
+#36     _BufferingStreamSubscription._add (dart:async/stream_impl.dart:297:7)
+#37     _SinkTransformerStreamSubscription._add (dart:async/stream_transformers.dart:63:11)
+#38     _EventSinkWrapper.add (dart:async/stream_transformers.dart:13:11)
+#39     _WebSocketProtocolTransformer._messageFrameEnd (dart:_http/websocket_impl.dart:332:23)
+#40     _WebSocketProtocolTransformer.add (dart:_http/websocket_impl.dart:226:46)
+#41     _SinkTransformerStreamSubscription._handleData (dart:async/stream_transformers.dart:111:24)
+#42     _rootRunUnary (dart:async/zone.dart:1407:47)
+#43     _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+#44     _CustomZone.runUnaryGuarded (dart:async/zone.dart:1217:7)
+#45     _BufferingStreamSubscription._sendData (dart:async/stream_impl.dart:365:11)
+#46     _BufferingStreamSubscription._add (dart:async/stream_impl.dart:297:7)
+#47     _SyncStreamControllerDispatch._sendData (dart:async/stream_controller.dart:784:19)
+#48     _StreamController._add (dart:async/stream_controller.dart:658:7)
+#49     _StreamController.add (dart:async/stream_controller.dart:606:5)
+#50     _Socket._onData (dart:io-patch/socket_patch.dart:2449:41)
+#51     _rootRunUnary (dart:async/zone.dart:1415:13)
+#52     _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+#53     _CustomZone.runUnaryGuarded (dart:async/zone.dart:1217:7)
+#54     _BufferingStreamSubscription._sendData (dart:async/stream_impl.dart:365:11)
+#55     _BufferingStreamSubscription._add (dart:async/stream_impl.dart:297:7)
+#56     _SyncStreamControllerDispatch._sendData (dart:async/stream_controller.dart:784:19)
+#57     _StreamController._add (dart:async/stream_controller.dart:658:7)
+#58     _StreamController.add (dart:async/stream_controller.dart:606:5)
+#59     new _RawSocket.<anonymous closure> (dart:io-patch/socket_patch.dart:1936:33)
+#60     _NativeSocket.issueReadEvent.issue (dart:io-patch/socket_patch.dart:1379:14)
+#61     _microtaskLoop (dart:async/schedule_microtask.dart:40:21)
+#62     _startMicrotaskLoop (dart:async/schedule_microtask.dart:49:5)
+#63     _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:118:13)
+#64     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:185:5)
+
+A user connected: 253e4fd01ed611ef8066c7f15f0468e1
+A user connected: 254024901ed611ef8066c7f15f0468e1
+User disconnected: name
+2024-05-30 22:45:03.572617:socket_io:Client:3
+SEVERE: type 'Null' is not a subtype of type 'bool'
+Cause: #0      main.<anonymous closure>.<anonymous closure> (file:///home/ubuntu/console_chat/bin/server.dart:50:45)
+#1      EventEmitter.emit.<anonymous closure> (package:socket_io/src/util/event_emitter.dart:34:14)
+#2      List.forEach (dart:core-patch/growable_array.dart:416:8)
+#3      EventEmitter.emit (package:socket_io/src/util/event_emitter.dart:33:11)
+#4      Function._apply (dart:core-patch/function_patch.dart:11:71)
+#5      Function.apply (dart:core-patch/function_patch.dart:35:12)
+#6      Socket.onevent (package:socket_io/src/socket.dart:322:16)
+#7      Socket.onpacket (package:socket_io/src/socket.dart:281:9)
+#8      Client.ondecoded (package:socket_io/src/client.dart:180:16)
+#9      EventEmitter.emit.<anonymous closure> (package:socket_io_common/src/util/event_emitter.dart:51:14)
+#10     List.forEach (dart:core-patch/growable_array.dart:416:8)
+#11     EventEmitter.emit (package:socket_io_common/src/util/event_emitter.dart:50:11)
+#12     Decoder.add (package:socket_io_common/src/parser/parser.dart:159:14)
+#13     Client.ondata (package:socket_io/src/client.dart:162:15)
+#14     EventEmitter.emit.<anonymous closure> (package:socket_io/src/util/event_emitter.dart:34:14)
+#15     List.forEach (dart:core-patch/growable_array.dart:416:8)
+#16     EventEmitter.emit (package:socket_io/src/util/event_emitter.dart:33:11)
+#17     Socket.onPacket (package:socket_io/src/engine/socket.dart:105:11)
+#18     EventEmitter.emit.<anonymous closure> (package:socket_io/src/util/event_emitter.dart:34:14)
+#19     List.forEach (dart:core-patch/growable_array.dart:416:8)
+#20     EventEmitter.emit (package:socket_io/src/util/event_emitter.dart:33:11)
+#21     Transport.onPacket (package:socket_io/src/engine/transport/transports.dart:91:5)
+#22     Transport.onData (package:socket_io/src/engine/transport/transports.dart:98:7)
+#23     _rootRunUnary (dart:async/zone.dart:1407:47)
+#24     _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+#25     _CustomZone.runUnaryGuarded (dart:async/zone.dart:1217:7)
+#26     _BufferingStreamSubscription._sendData (dart:async/stream_impl.dart:365:11)
+#27     _BufferingStreamSubscription._add (dart:async/stream_impl.dart:297:7)
+#28     _SyncStreamControllerDispatch._sendData (dart:async/stream_controller.dart:784:19)
+#29     _StreamController._add (dart:async/stream_controller.dart:658:7)
+#30     _StreamController.add (dart:async/stream_controller.dart:606:5)
+#31     new _WebSocketImpl._fromSocket.<anonymous closure> (dart:_http/websocket_impl.dart:1144:21)
+#32     _rootRunUnary (dart:async/zone.dart:1407:47)
+#33     _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+#34     _CustomZone.runUnaryGuarded (dart:async/zone.dart:1217:7)
+#35     _BufferingStreamSubscription._sendData (dart:async/stream_impl.dart:365:11)
+#36     _BufferingStreamSubscription._add (dart:async/stream_impl.dart:297:7)
+#37     _SinkTransformerStreamSubscription._add (dart:async/stream_transformers.dart:63:11)
+#38     _EventSinkWrapper.add (dart:async/stream_transformers.dart:13:11)
+#39     _WebSocketProtocolTransformer._messageFrameEnd (dart:_http/websocket_impl.dart:332:23)
+#40     _WebSocketProtocolTransformer.add (dart:_http/websocket_impl.dart:226:46)
+#41     _SinkTransformerStreamSubscription._handleData (dart:async/stream_transformers.dart:111:24)
+#42     _rootRunUnary (dart:async/zone.dart:1407:47)
+#43     _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+#44     _CustomZone.runUnaryGuarded (dart:async/zone.dart:1217:7)
+#45     _BufferingStreamSubscription._sendData (dart:async/stream_impl.dart:365:11)
+#46     _BufferingStreamSubscription._add (dart:async/stream_impl.dart:297:7)
+#47     _SyncStreamControllerDispatch._sendData (dart:async/stream_controller.dart:784:19)
+#48     _StreamController._add (dart:async/stream_controller.dart:658:7)
+#49     _StreamController.add (dart:async/stream_controller.dart:606:5)
+#50     _Socket._onData (dart:io-patch/socket_patch.dart:2449:41)
+#51     _rootRunUnary (dart:async/zone.dart:1415:13)
+#52     _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+#53     _CustomZone.runUnaryGuarded (dart:async/zone.dart:1217:7)
+#54     _BufferingStreamSubscription._sendData (dart:async/stream_impl.dart:365:11)
+#55     _BufferingStreamSubscription._add (dart:async/stream_impl.dart:297:7)
+#56     _SyncStreamControllerDispatch._sendData (dart:async/stream_controller.dart:784:19)
+#57     _StreamController._add (dart:async/stream_controller.dart:658:7)
+#58     _StreamController.add (dart:async/stream_controller.dart:606:5)
+#59     new _RawSocket.<anonymous closure> (dart:io-patch/socket_patch.dart:1936:33)
+#60     _NativeSocket.issueReadEvent.issue (dart:io-patch/socket_patch.dart:1379:14)
+#61     _microtaskLoop (dart:async/schedule_microtask.dart:40:21)
+#62     _startMicrotaskLoop (dart:async/schedule_microtask.dart:49:5)
+#63     _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:118:13)
+#64     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:185:5)
+
+User disconnected: hjk
+2024-05-30 22:45:15.605632:socket_io:Client:4
+SEVERE: type 'Null' is not a subtype of type 'bool'
+Cause: #0      main.<anonymous closure>.<anonymous closure> (file:///home/ubuntu/console_chat/bin/server.dart:50:45)
+#1      EventEmitter.emit.<anonymous closure> (package:socket_io/src/util/event_emitter.dart:34:14)
+#2      List.forEach (dart:core-patch/growable_array.dart:416:8)
+#3      EventEmitter.emit (package:socket_io/src/util/event_emitter.dart:33:11)
+#4      Function._apply (dart:core-patch/function_patch.dart:11:71)
+#5      Function.apply (dart:core-patch/function_patch.dart:35:12)
+#6      Socket.onevent (package:socket_io/src/socket.dart:322:16)
+#7      Socket.onpacket (package:socket_io/src/socket.dart:281:9)
+#8      Client.ondecoded (package:socket_io/src/client.dart:180:16)
+#9      EventEmitter.emit.<anonymous closure> (package:socket_io_common/src/util/event_emitter.dart:51:14)
+#10     List.forEach (dart:core-patch/growable_array.dart:416:8)
+#11     EventEmitter.emit (package:socket_io_common/src/util/event_emitter.dart:50:11)
+#12     Decoder.add (package:socket_io_common/src/parser/parser.dart:159:14)
+#13     Client.ondata (package:socket_io/src/client.dart:162:15)
+#14     EventEmitter.emit.<anonymous closure> (package:socket_io/src/util/event_emitter.dart:34:14)
+#15     List.forEach (dart:core-patch/growable_array.dart:416:8)
+#16     EventEmitter.emit (package:socket_io/src/util/event_emitter.dart:33:11)
+#17     Socket.onPacket (package:socket_io/src/engine/socket.dart:105:11)
+#18     EventEmitter.emit.<anonymous closure> (package:socket_io/src/util/event_emitter.dart:34:14)
+#19     List.forEach (dart:core-patch/growable_array.dart:416:8)
+#20     EventEmitter.emit (package:socket_io/src/util/event_emitter.dart:33:11)
+#21     Transport.onPacket (package:socket_io/src/engine/transport/transports.dart:91:5)
+#22     Transport.onData (package:socket_io/src/engine/transport/transports.dart:98:7)
+#23     _rootRunUnary (dart:async/zone.dart:1407:47)
+#24     _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+#25     _CustomZone.runUnaryGuarded (dart:async/zone.dart:1217:7)
+#26     _BufferingStreamSubscription._sendData (dart:async/stream_impl.dart:365:11)
+#27     _BufferingStreamSubscription._add (dart:async/stream_impl.dart:297:7)
+#28     _SyncStreamControllerDispatch._sendData (dart:async/stream_controller.dart:784:19)
+#29     _StreamController._add (dart:async/stream_controller.dart:658:7)
+#30     _StreamController.add (dart:async/stream_controller.dart:606:5)
+#31     new _WebSocketImpl._fromSocket.<anonymous closure> (dart:_http/websocket_impl.dart:1144:21)
+#32     _rootRunUnary (dart:async/zone.dart:1407:47)
+#33     _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+#34     _CustomZone.runUnaryGuarded (dart:async/zone.dart:1217:7)
+#35     _BufferingStreamSubscription._sendData (dart:async/stream_impl.dart:365:11)
+#36     _BufferingStreamSubscription._add (dart:async/stream_impl.dart:297:7)
+#37     _SinkTransformerStreamSubscription._add (dart:async/stream_transformers.dart:63:11)
+#38     _EventSinkWrapper.add (dart:async/stream_transformers.dart:13:11)
+#39     _WebSocketProtocolTransformer._messageFrameEnd (dart:_http/websocket_impl.dart:332:23)
+#40     _WebSocketProtocolTransformer.add (dart:_http/websocket_impl.dart:226:46)
+#41     _SinkTransformerStreamSubscription._handleData (dart:async/stream_transformers.dart:111:24)
+#42     _rootRunUnary (dart:async/zone.dart:1407:47)
+#43     _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+#44     _CustomZone.runUnaryGuarded (dart:async/zone.dart:1217:7)
+#45     _BufferingStreamSubscription._sendData (dart:async/stream_impl.dart:365:11)
+#46     _BufferingStreamSubscription._add (dart:async/stream_impl.dart:297:7)
+#47     _SyncStreamControllerDispatch._sendData (dart:async/stream_controller.dart:784:19)
+#48     _StreamController._add (dart:async/stream_controller.dart:658:7)
+#49     _StreamController.add (dart:async/stream_controller.dart:606:5)
+#50     _Socket._onData (dart:io-patch/socket_patch.dart:2449:41)
+#51     _rootRunUnary (dart:async/zone.dart:1415:13)
+#52     _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+#53     _CustomZone.runUnaryGuarded (dart:async/zone.dart:1217:7)
+#54     _BufferingStreamSubscription._sendData (dart:async/stream_impl.dart:365:11)
+#55     _BufferingStreamSubscription._add (dart:async/stream_impl.dart:297:7)
+#56     _SyncStreamControllerDispatch._sendData (dart:async/stream_controller.dart:784:19)
+#57     _StreamController._add (dart:async/stream_controller.dart:658:7)
+#58     _StreamController.add (dart:async/stream_controller.dart:606:5)
+#59     new _RawSocket.<anonymous closure> (dart:io-patch/socket_patch.dart:1936:33)
+#60     _NativeSocket.issueReadEvent.issue (dart:io-patch/socket_patch.dart:1379:14)
+#61     _microtaskLoop (dart:async/schedule_microtask.dart:40:21)
+#62     _startMicrotaskLoop (dart:async/schedule_microtask.dart:49:5)
+#63     _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:118:13)
+#64     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:185:5)
+
+A user connected: b1ea76201f1211ef8066c7f15f0468e1
+sad
+A user connected: f33e1a501f2111ef8066c7f15f0468e1
+A user connected: f76814f01f2111ef8066c7f15f0468e1
+User disconnected: test
+User disconnected: q
+A user connected: 0830cde01f2211ef8066c7f15f0468e1
+A user connected: 08726ac01f2211ef8066c7f15f0468e1
+sad
+A user connected: 0a795e501f2211ef8066c7f15f0468e1
+User disconnected: te
+A user connected: 1c43cfd01f2211ef8066c7f15f0468e1
+User disconnected: q
+A user connected: 20cc8c401f2211ef8066c7f15f0468e1
+User disconnected: t
+User disconnected: w
+A user connected: 2e9d61f01f2211ef8066c7f15f0468e1
+A user connected: 305aa2501f2211ef8066c7f15f0468e1
+sad
+A user connected: 334d07501f2211ef8066c7f15f0468e1
+sad
+A user connected: 449a16001f2311ef8066c7f15f0468e1
+User disconnected: test
+A user connected: f78707401f2411ef8066c7f15f0468e1
+A user connected: 004eccf01f2511ef8066c7f15f0468e1
+User disconnected: loh
+A user connected: 11dfb7e01f2511ef8066c7f15f0468e1
+User disconnected: test
+A user connected: 1b8840a01f2511ef8066c7f15f0468e1
+User disconnected: q
+A user connected: 28056d301f2511ef8066c7f15f0468e1
+User disconnected: rg
+A user connected: 7b071f101f2511ef8066c7f15f0468e1
+User disconnected: test
+A user connected: 7dca1a301f2611ef8066c7f15f0468e1
+A user connected: 7dca68501f2611ef8066c7f15f0468e1
+User disconnected: dima
+sad
+A user connected: a7d3dcc01f2711ef8066c7f15f0468e1
+sad
+A user connected: b6a13ae01f2711ef8066c7f15f0468e1
+User disconnected: dima
+User disconnected: qw
+User disconnected: wef
+A user connected: d0d4ec701f2911ef8066c7f15f0468e1
+A user connected: dbe542901f2911ef8066c7f15f0468e1
+User disconnected: dsfdsf
+A user connected: 2cf955401f2a11ef8066c7f15f0468e1
+A user connected: 47ebd4e01f2a11ef8066c7f15f0468e1
+User disconnected: test
+User disconnected: ьmax loh
+User disconnected: \ 
