@@ -16,6 +16,7 @@ dependencies:
   socket_io_common: ^1.0.1
   process: ^4.2.4
   dart_console: ^1.0.0
+  crypto: ^3.0.1
   
 
 dev_dependencies:
