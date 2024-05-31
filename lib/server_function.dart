@@ -77,7 +77,7 @@ void do_command(var client, List<String> data, Map<String, Map<String, Object>> 
         {
           name += " ";
         }
-        onlinelist += "-$name                                     ${i['admin']}\n";
+        onlinelist += "-$name                                     ${i['admin']as bool?"admin":""}\n";
       }
 
         onlinelist += '---------------------------------------------------';
