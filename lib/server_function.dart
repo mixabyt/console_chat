@@ -65,6 +65,7 @@ void do_command(var client, List<String> data, Map<String, Map<String, Object>> 
     
     case '/online':
       String onlinelist = '---------------------------------------------------\n';
+
       
       String value = max(users);
       
@@ -81,6 +82,7 @@ void do_command(var client, List<String> data, Map<String, Map<String, Object>> 
 
         onlinelist += '---------------------------------------------------';
         client.emit("message", onlinelist);
+  
       break;
     
     case '/admin':
