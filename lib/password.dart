@@ -8,7 +8,3 @@ String hashPassword(String password) {
 }
 
 
-void main()
-{
-  print(hashPassword('whitenigga'));
-}
