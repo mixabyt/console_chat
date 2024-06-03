@@ -1,4 +1,4 @@
-
+// перірка на локальному сервері
 import 'dart:io';
 
 void main() async {
