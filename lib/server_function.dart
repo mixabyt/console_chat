@@ -88,7 +88,7 @@ void do_command(var client, List<String> data, Map<String, Map<String, Object>> 
       if (data.length > 1)
       {
         String password = hashPassword(data[1]);
-        if (password == '')
+        if (password == 'PASSWORD')
         {
           client.emit("message", 'you are admin now!');
           users[client.id]!["admin"] = true;
